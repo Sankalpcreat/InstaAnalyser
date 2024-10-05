@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import connectMongo from "@/utils/mongoDb";
-import redisClient,{getCache,setCache} from "@/utils/redis";
+import {getCache,setCache} from "@/utils/redis";
 import Profile from "@/models/ProfileModel";
 import { fetchInstagramProfile } from "@/utils/instagramApi";
 
